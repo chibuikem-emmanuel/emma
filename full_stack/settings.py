@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-e83fooni=(y@dh887897xfo7j#d1z91z73psu8k5qbx&rha%nk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 # CORS_ALLOWED_ORIGIN = [
 #        'http://127.0.0.1:5173',
@@ -88,6 +88,12 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.postgresql',
+        # 'NAME': 'railway',
+        # 'USER': 'postgres',
+        # 'PASSWORD': 'F5EECD*ea4dB6d-6FgA1Da33-dfd4ebG',
+        # 'HOST': 'roundhouse.proxy.rlwy.net',
+        # 'POST': '35978',
     }
 }
 
